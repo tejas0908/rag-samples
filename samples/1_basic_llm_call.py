@@ -1,7 +1,7 @@
 from openai import OpenAI
 client = OpenAI()
 completion = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-4o-mini",
     messages=[
         {"role": "system", "content": "complete the sentence"},
         {"role": "user", "content": "the students opened their"}

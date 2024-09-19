@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rag-samples"
+version = "1.0.0"
+description = ""
+authors = ["Tejas Venugopal"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "1.46.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

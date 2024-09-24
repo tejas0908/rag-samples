@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from openai import OpenAI
 client = OpenAI()
 completion = client.chat.completions.create(

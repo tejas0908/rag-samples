@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 import gradio as gr
 import glob
 from text_chunker import sentences
